@@ -52,7 +52,7 @@ if [[ -L /usr/local/bin/fel ]]; then
 fi
 sudo ln -s $PWD/fel /usr/local/bin/fel
 
-cd ..
+cd ../
 
 echo -e "\n Installing CHIP-tools"
 git clone http://github.com/NextThingCo/CHIP-tools
